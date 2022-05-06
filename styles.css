@@ -1,0 +1,60 @@
+
+/*Cambio de modos Dark y White*/
+  /* Dark-mode */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+              }
+    }
+    /* Light-mode */
+  @media (prefers-color-scheme: light) {
+      body {
+      background-color: white;
+      color: black;
+                }
+      }
+
+.border_redondo{
+  border-radius: 15px;;
+}
+
+.Contenedor{
+  justify-content: column;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Menu-izq{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: left;
+}
+
+h2{
+  font-family: 'Water Brush', cursive;
+  font-size: 50px;
+  align-content: center;
+}
+
+.img_portada{
+background-image: url(background-dark.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+img{
+  width: 200px;
+}
+#lista-ordenada{
+  font-size: 25px;
+  font-family: 'water Brush';
+}
+#Lista-noorder{
+  font-size: 25px;
+  font-family: 'Roboto';
+}
