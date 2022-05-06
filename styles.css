@@ -16,7 +16,8 @@
       }
 
 .border_redondo{
-  border-radius: 15px;;
+  border-radius: 15px;
+  width: 200px;
 }
 
 .Contenedor{
@@ -37,22 +38,12 @@ h2{
   font-family: 'Water Brush', cursive;
   font-size: 50px;
   align-content: center;
+  text-align: center;
 }
 
-.img_portada{
-background-image: url(background-dark.jpeg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-}
-
-img{
-  width: 200px;
-}
 #lista-ordenada{
   font-size: 25px;
-  font-family: 'water Brush';
+  font-family: 'Roboto';
 }
 #Lista-noorder{
   font-size: 25px;
