@@ -17,7 +17,8 @@
 
 .border_redondo{
   border-radius: 15px;
-  width: 200px;
+  margin: 5px;
+  padding: 10%;
 }
 
 .Contenedor{
@@ -48,4 +49,10 @@ h2{
 #Lista-noorder{
   font-size: 25px;
   font-family: 'Roboto';
+}
+
+.Parrafo_1{
+  font-size: 20px;
+  font-family: 'roboto';
+  text-align: left;
 }
