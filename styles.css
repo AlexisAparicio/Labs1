@@ -21,11 +21,16 @@
   padding: 10%;
 }
 
+[type="radio"]{
+  margin: 5px;
+}
 .Contenedor{
   justify-content: column;
   align-items: center;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
+  padding: 15px;
+  border: 10px;
 }
 
 .Menu-izq{
