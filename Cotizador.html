@@ -48,46 +48,8 @@ min.js"></script>
 <link href="Cotizador.css" rel="stylesheet">
 
 </head>
-
-  <body>
-    <div class="b-example-divider"></div>
-
-    <header class="p-3 mb-3 border-bottom">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-          </a>
-  
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-          </ul>
-  
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-          </form>
-  
-          <div class="dropdown text-end">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-            </a>
-            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-              <li><a class="dropdown-item" href="#">New project...</a></li>
-              <li><a class="dropdown-item" href="#">Settings</a></li>
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Sign out</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-
-
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<body>
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
       <!-- Brand -->
       <a class="navbar-brand" href=index.html>Menu</a>
       <!-- Toggler/collapsibe Button -->
@@ -125,23 +87,22 @@ min.js"></script>
         <h3>Imagenes de Autos:</h3>
         <a href="https://www.youtube.com/channel/UCcNmJRTl9B5beU67RRUun8Q" target="_blank"
         rel="noopener noreferrer""><img class="border_redondo" src="chiriqui.jpeg" width="500" alt="WRX 2015"></a>
-        <a rel="noopener noreferrer""><img class="border_redondo" src="dash.jpeg" width="500" alt="WRX 2015"></a>
-            <p>Haz Click Aqui para ver mas <a href="https://www.youtube.com/channel/UCcNmJRTl9B5beU67RRUun8Q" target="_blank"
-              rel="noopener noreferrer">imagenes de autos.</a></p>
+              
+        <div>
+          <select name="autos" id="Autos">
+            <option value="Subaru">Subaru</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Audi">Audi</option>
+            <option value="Kia">Kia</option>
+            <option value="Hyundai">Hyundai</option>
+          </select>
+      </div>     
 
-              <h3 class="Parrafo-1"">Parrafo 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias sequi, quisquam at nobis dolore illum voluptatibus quidem dolor, eum distinctio accusantium corporis libero. Distinctio vero quisquam expedita fugit esse.
-              </p>
-              <h3 id="parrafo-2">Parrafo 2</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officia blanditiis necessitatibus debitis nobis sapiente ducimus ex ullam eaque praesentium esse, ut labore exercitationem rem iste repellat temporibus dolore minima.
-              </p>
-              <h3 id="parrafo-3">Parrafo 3</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci autem iusto, dolores numquam laudantium id! Totam labore voluptate, eligendi beatae atque voluptas soluta distinctio, aut nostrum necessitatibus fugit, est accusantium?</p>
-              <hr>
+        <hr>
             </div>
               <div>
-                <h3>Lista de piezas</h3>
+                <h3>Lista de piezas que se mantienen en stock</h3>
                 <p>Articulos <strong> instalados:</strong></p>
                 <ul id="Lista-noorder">
                   <li><em>Intercooler</em> </li>
