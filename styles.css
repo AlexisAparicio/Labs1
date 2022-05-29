@@ -1,29 +1,18 @@
 
-/*Cambio de modos Dark y White*/
-  /* Dark-mode */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: white;
-              }
-    }
-    /* Light-mode */
-  @media (prefers-color-scheme: light) {
-      body {
-      background-color: white;
-      color: black;
-                }
-      }
-
 .border_redondo{
   border-radius: 15px;
   margin: 5px;
   padding: 10%;
 }
+ 
+.body{
+background: url(backgroun-dark.jpeg);
+}
 
 [type="radio"]{
   margin: 5px;
 }
+
 .Contenedor{
   justify-content: column;
   align-items: center;
@@ -61,3 +50,11 @@ h2{
   font-family: 'roboto';
   text-align: left;
 }
+
+
+.logo{
+  margin: 10px;
+  max-width: 250;
+  max-height: 250;
+}
+  
