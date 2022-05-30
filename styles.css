@@ -1,14 +1,26 @@
 
+main{
+  background-image: url("img/yellowbackground.jpeg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+footer{
+  text-align: center;
+  background-image: url("img/background-dark.jpeg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  color: black;
+  background-size: cover;
+}
+
 .border_redondo{
   border-radius: 15px;
   margin: 5px;
   padding: 10%;
 }
  
-.body{
-background: url(backgroun-dark.jpeg);
-}
-
 [type="radio"]{
   margin: 5px;
 }
@@ -23,7 +35,7 @@ background: url(backgroun-dark.jpeg);
 }
 
 .Menu-izq{
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: 'Roboto';
   text-align: left;
@@ -34,6 +46,7 @@ h2{
   font-size: 50px;
   align-content: center;
   text-align: center;
+  color: black;
 }
 
 #lista-ordenada{
