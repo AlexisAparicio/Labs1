@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador de repuestos y servicios  </title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Water+Brush&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Square+Peg&family=Water+Brush&display=swap" rel="stylesheet">
+<style>
+ .bd-placeholder-img {
+   font-size: 1.125rem;
+   text-anchor: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+ }
+
+ @media (min-width: 768px) {
+   .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+   }
+ }
+</style>
+
+<!-- Custom styles for this template -->
+<link href="Cotizador.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href=index.html>Menu</a>
+      <!-- Toggler/collapsibe Button -->
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data
+      -target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link" href="Cotizador.html">Cotizador</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href=Autos.html>Autos</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="Talleres.html">Servicios de taller </a>
+      </li>
+      </ul>
+      </div>
+      
+      </nav>
+   <h2>Cotizador de servicios y repuestos de auto</h2>
+    <div class="Portada">
+    <!--<a rel ="noopener noreferrer""><img class="img_portada"src="portada.jpeg" width="500" alt="Portada"></a><br>-->
+  </div>
+      <main>
+        <div class="Contenedor">
+        <a href="#parrafo-1">WRX 2015</a>
+        <a href="#parrafo-2">Subaru WRX 2009</a>
+        <a href="#parrafo-3">Nissan Versa 2007</a>
+
+        <h3>Imagenes de Autos:</h3>
+        <a href="https://www.youtube.com/channel/UCcNmJRTl9B5beU67RRUun8Q" target="_blank"
+        rel="noopener noreferrer""><img class="border_redondo" src="chiriqui.jpeg" width="500" alt="WRX 2015"></a>
+              
+        <div>
+          <select name="autos" id="Autos">
+            <option value="Subaru">Subaru</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Audi">Audi</option>
+            <option value="Kia">Kia</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="BMW">BMW</option>
+          </select>
+          
+      </div>     
+              <hr>
+            </div>
+              <div>
+                <h3>Lista de piezas que se mantienen en stock</h3>
+                <p>Articulos <strong> instalados:</strong></p>
+                <ul id="Lista-noorder">
+                  <li><em>Intercooler</em> </li>
+                  <li><s> BlowOff</s></li>
+                 <li>Rines</li>
+                </ul>
+            </div>
+                <div>
+                   <p>Articulos para instalar</p>
+                  <ol id="lista-ordenada"> <em>
+                  <li> Suspensión BC Racing</li>
+                  <li> Front Mount Intercooler</li>
+                  <li>Widebody</li></em>
+                   </ol>
+              </div>
+              <form class="Configuración" action="/Enviar-respuesta">
+
+                  <label for="Turbo"><input id="Turbo" value="Turbo" type="radio" name="turbo-BOV-Interior" checked>Turbo</label><br>
+                  <label for="BOV"><input id="BOV" type="radio"value="BOV" name="turbo-BOV-Interior"> BOV</label><br>
+                  <label for="Interior"><input id="Interior" type="radio" value="Interior" name="turbo-BOV-Interior">Interior</label><br>
+                 <label for="200"> <input id="200" type="checkbox" checked>200 HP </label><br>
+                 <label for="300"> <input id="300" type="checkbox">300 HP</label><br>
+                 <label for="400"> <input id="400" type="checkbox">400 HP</label><br>
+                <input type="text" placeholder="Search"required>
+                <button type="Text"> Enviar</button>
+            </form>
+
+
+      </main>
+      <footer> 
+        <p> <small> Derechos de Autor -  <a href="https://www.youtube.com/channel/UCcNmJRTl9B5beU67RRUun8Q"> Pagina de Autos</a></small></p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
