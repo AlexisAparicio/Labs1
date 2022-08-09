@@ -1,0 +1,16 @@
+<div ng-controller="myController">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            N Queens
+        </div>
+        <div class="panel-body">
+            <input type="number" ng-model="sides"/> <button ng-click="solve()">Solve</button> 
+            <table class="table table-bordered" style="margin-top:20px">
+                <tr><td>Complete in: {{endTime}}ms</td><td>Num Computations: {{numcomputations}}</td><td>Num Solutions: {{solution_grids.length}}</td>
+                </tr>
+            </table>
+        <div class="panel-body">
+            <pre ng-repeat="grid in solution_grids"><h4>Solution {{$index+1}}</h4>{{grid}}</pre>
+        </div>
+    </div>
+</div>
